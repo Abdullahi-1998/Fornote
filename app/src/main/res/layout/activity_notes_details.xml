@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NotesDetailsActivity">
+
+    <include
+        layout="@layout/editnote_and_notedetail"/>
+
+    <TextView
+        android:id="@+id/noteDateDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08 August 2020"
+        android:layout_marginStart="15dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:drawableStart="@drawable/ic_baseline_calendar_today_24"
+        android:drawablePadding="10dp"
+        android:padding="5dp"
+        />
+
+    <com.jogoo.notes.LinedEditText
+        android:id="@+id/noteContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:gravity="top"
+        android:contentDescription="@string/this_lets_users_write_notes"
+        android:imeOptions="flagNoExtractUi"
+        />
+
+</LinearLayout>

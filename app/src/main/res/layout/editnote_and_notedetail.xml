@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:weightSum="100"
+    >
+
+    <RelativeLayout
+        android:id="@+id/container_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_weight="10">
+
+        <ImageButton
+            android:id="@+id/arrow_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_arrow_back_"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/arrow_back_cont"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/container_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_weight="10">
+
+        <ImageButton
+            android:id="@+id/check_note"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_check"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/this_handles_checking_notes"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/note_text_id"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="85"
+        android:text="NoteTitle"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:visibility="visible"
+        />
+
+    <EditText
+        android:id="@+id/note_text_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="85"
+        android:text="NoteTitle"
+        android:textSize="23sp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center"
+        android:textColor="#000"
+        android:visibility="gone"
+        android:background="#FFEB3B"
+        android:padding="2dp"
+        android:maxLines="1"
+        android:inputType="text"
+        />
+
+
+</LinearLayout>

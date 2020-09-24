@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Fornote</string>
+    <string name="search_notes">Search Notes</string>
+    <string name="app_tittle_name">ForNotes</string>
+    <string name="_09_n_august">09 \n August</string>
+    <string name="note_title">Note Title</string>
+    <string name="_18_august_2020_12_51_pm">18 August 2020 12:51 PM</string>
+    <string name="arrow_back_cont">This perform arrow back</string>
+    <string name="this_handles_checking_notes">This handles checking notes</string>
+    <string name="this_lets_users_write_notes">This lets users write notes</string>
+    <string name="home">Home</string>
+    <string name="add_note">Add Note</string>
+    <string name="settings">Settings</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="about_app">Information</string>
+    <string name="todo">TODO</string>
+    <string name="app_version">App Version</string>
+    <string name="About">About us</string>
+    <string name="rate_us">Rate us</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="more_avert">Settings</string>
+    <string name="navigation_drawer_open">Open Navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation drawer</string>
+
+
+</resources>

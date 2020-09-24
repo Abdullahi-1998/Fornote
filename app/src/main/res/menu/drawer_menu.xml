@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/addNote"
+            android:icon="@drawable/ic_baseline_note_24"
+            android:title="@string/add_note" />
+    </group>
+
+    <item android:title="@string/about_app">
+
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/settings"
+                    android:icon="@drawable/ic_baseline_settings_24"
+                    android:title="@string/settings" />
+                <item
+                    android:id="@+id/privacy_policies"
+                    android:icon="@drawable/privacy_policy"
+                    android:title="@string/privacy_policy" />
+                <item
+                    android:id="@+id/Terms_Condition"
+                    android:icon="@drawable/ic_baseline_terms_24"
+                    android:title= "@string/terms_conditions" />
+                <item
+                    android:id="@+id/contact_support"
+                    android:icon="@drawable/ic_baseline_contact_support_24"
+                    android:title="@string/contact_support" />
+                <item
+                    android:id="@+id/About"
+                    android:icon="@drawable/ic_baseline_group_24"
+                    android:title ="@string/About" />
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>
